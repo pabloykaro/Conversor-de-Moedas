@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing:  border-box;
+  outline: none;
+}
+.App {
+   background: #c1c1c1;
+max-width: 500px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.62);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.62);
+  margin: 5px auto;
+
+  padding: 5px;
+}
+
+
+
+label {
+  font-family: 'Tahoma','Arial';
+}
+input{
+  height: 30px;
+  
+}
+.resultado{
+    text-align: center;
+font-weight: bold;
+}
+
+h2{
+  text-align: center;
+}
+
+header#main-header{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #da552f;
+}
